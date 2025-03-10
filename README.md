@@ -2,6 +2,8 @@
 
 This is a simple Todo List API built with NestJS, Prisma, and SQLite. The API allows users to perform CRUD (Create, Read, Update, Delete) operations on todo items.
 
+![Todo List API](./screen/get.png)
+
 ## Features
 
 - Create a new todo item
@@ -22,33 +24,46 @@ Follow these instructions to set up and run the project on your local machine.
 
 ### Prerequisites
 
-- Node.js
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
 - npm or yarn
 
 ### Installation
 
-1. Clone the repository:
+#### 1. Clone the repository
 
-   ```bash
-   git clone https://github.com/your-username/todo-list-api.git
-   cd todo-list-api
+```bash
+git clone https://github.com/your-username/todo-list-api.git
+cd todo-list-api
+```
 
-2. Install dependencies
-  ```bash
-  npm install
+#### 2. Install dependencies
 
-3. Set up Prisma
-  ```bash
-  npx prisma init
+```bash
+npm install
+```
 
-4. Run the Prisma migrations
-  ```bash
-  npx prisma migrate dev --name init
+#### 3. Set up Prisma
 
-5. Start the application by running
-  ```bash
-  npm run start:dev 
+```bash
+npx prisma init
+```
 
+#### 4. Run the Prisma migrations
+
+```bash
+npx prisma migrate dev --name init
+```
+
+#### 5. Start the application
+
+```bash
+npm run start:dev
+```
+
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 Feel free to customize it further to fit your needs. If you need any more help, let me know!
+
